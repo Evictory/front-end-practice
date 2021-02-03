@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    outline: 0;
+    padding: 0;
+}
+
+h1, h2, h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.content-default{
+    padding: 20px;
+}
+
+.content-space--default{
+    margin: 2px;
+    border-radius: 5px;
+}
+
+.content-justify{
+    justify-content: center;
+}
+
+.content-justify--between{
+    justify-content: space-between;
+}
+
+.content-justify--right{
+    justify-content: flex-end;
+}
+
+
+.content-align{
+    align-items: start;
+}
+
+.content-align--center{
+    align-items: center;
+}
+
+.content-flex{
+    display: flex;
+}
+
+.content-flex--reverse{
+    flex-direction: row-reverse;
+}
+
+.content-flex--direction{
+    flex-direction: row;
+}
+
+.content-flexgrid{
+    display: grid;
+}
+
+.content-border--grey{
+    border: solid 1px grey;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-size--12{
+    font-size: 12px;
+}
+
+.flex-wrap{
+    flex: 1;
+    justify-content: center;
+    margin: 2px;
+    width: 33%;
+}
+
+.bg-img--version--1{
+    background-image: url('https://static.toiimg.com/photo/72975551.cms');
+}
+
+.bg-img--version--2{
+    background-image: url('https://static.toiimg.com/photo/72975551.cms');
+}
+
+.bg-img--version--3{
+    background-image: url('https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/07/solar_orbiter_s_first_views_of_the_sun5/22136942-2-eng-GB/Solar_Orbiter_s_first_views_of_the_Sun_pillars.gif');
+}
+
+.content-img{
+    width: 100%;
+    max-height: 100%;
+}
+
+/* Paralax */
+
+.container-paralax{
+    display: flex;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.content-paralax--data{
+    display: flex;
+}
+
+/*block content*/
+.content-block--default{
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    margin: 100px;
+}
+
