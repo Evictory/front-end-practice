@@ -130,8 +130,26 @@ p{
 /*block content*/
 .content-block--default{
     background-color: white;
-    height: 400px;
-    width: 400px;
-    margin: 100px;
+    padding: 120px;
+    margin: 50px;
 }
 
+
+
+
+/*Aula*/
+
+/*Smartphone*/
+
+@media screen and (max-width: 767px){
+    .container{
+        max-width: 100%;
+    }
+}
+
+/*tablet*/
+@media screen and (min-width: 767px) and (max-width: 1023px){
+    .container{
+        max-width: 100%;
+    }
+}
