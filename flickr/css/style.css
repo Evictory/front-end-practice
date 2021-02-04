@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+/*font-family: 'Yusei Magic', sans-serif;*/
+
+html, body {
+  box-sizing: border-box;
+  background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/254e28108518195.5fd1fe7c1e63f.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  color: #ffffff;
+  height: 90%;
+  font-family: 'Yusei Magic', sans-serif;
+}
+
+
+#app h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 4em;
+  padding-top: 5%;
+}
+
+.main-app{
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.main-app form {
+  margin-bottom: 5%;
+}
+
+.search-form{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.search-input{
+  border: solid #51d4eb;
+  font-size: 2em;
+  font-family: 'Yusei Magic', sans-serif;
+  height: 3em;
+  text-align: center;
+  width: 18em;
+}
+
+.search-input:focus {
+  border: solid 1px #353535;
+}
+
+.get-results--button{
+  background-color: #51d4eb;
+  color: #fff;
+  cursor: pointer;
+  border: solid 1px #51d4eb;
+  font-size: 2em;
+  transform: 1s;
+}
