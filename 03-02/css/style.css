@@ -96,15 +96,27 @@ p{
 }
 
 .bg-img--version--1{
-    background-image: url('https://static.toiimg.com/photo/72975551.cms');
+    background-image: url('https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/NG_101_Netuno_190404_1280x720_1472870467973.jpg?w=1900&h=1069');
 }
 
 .bg-img--version--2{
-    background-image: url('https://static.toiimg.com/photo/72975551.cms');
+    background-image: url('https://img.ibxk.com.br/2021/01/14/14183915543060.jpg?w=1120&h=420&mode=crop&scale=both');
 }
 
 .bg-img--version--3{
-    background-image: url('https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/07/solar_orbiter_s_first_views_of_the_sun5/22136942-2-eng-GB/Solar_Orbiter_s_first_views_of_the_Sun_pillars.gif');
+    background-image: url('https://d168rbuicf8uyi.cloudfront.net/wp-content/uploads/2017/08/18130743/2373_E-1.jpg');
+}
+
+.bg-img--version--4{
+    background-image: url('https://static.natgeo.pt/files/styles/image_3200/public/SCI_Jupiter_101_PT2~~~~~pt~mux~~1.jpg?w=1600');
+}
+
+.bg-img--version--5{
+    background-image: url('https://exame.com/wp-content/uploads/2020/10/marte_olhos.jpg?quality=70&strip=info&w=1024');
+}
+
+.bg-img--version--6{
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5a5913c9a803bb416d7ef48d/1588788468313-KS9PDFI6EMT8VAX78HLM/ke17ZwdGBToddI8pDm48kAOudlwKZNDPymxunD5W-ht7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmmt9rVnoh5SsI9ugICaYdmUDdiypYUN6A_OrlDtxdy4gYkzs_hewBcchOpWXU26fx/Tumblr.jpg');
 }
 
 .content-img{
@@ -129,9 +141,16 @@ p{
 
 /*block content*/
 .content-block--default{
-    background-color: white;
+    background-color: rgba(191, 191, 191, 0.768);
     padding: 120px;
     margin: 50px;
+}
+
+/* Menu */
+.container-menu{
+    display: fixed;
+    right: 0px;
+    bottom: 0px;
 }
 
 /*Smartphone*/
@@ -157,6 +176,10 @@ p{
         justify-content: center;
     }
 
+    .container-paralax{
+        height: 80vh;
+    }
+    
     footer {
         text-align: center;
     }
@@ -165,6 +188,6 @@ p{
 /*tablet*/
 @media screen and (min-width: 767px) and (max-width: 1023px){
     .container{
-        max-width: 100%;
+        width: 100%;
     }
 }
