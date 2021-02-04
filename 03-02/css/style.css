@@ -26,7 +26,7 @@ p{
 }
 
 .container{
-    max-width: 80%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -92,7 +92,7 @@ p{
     flex: 1;
     justify-content: center;
     margin: 2px;
-    width: 33%;
+    width: 50%;
 }
 
 .bg-img--version--1{
@@ -134,16 +134,31 @@ p{
     margin: 50px;
 }
 
-
-
-
-/*Aula*/
-
 /*Smartphone*/
 
 @media screen and (max-width: 767px){
     .container{
-        max-width: 100%;
+        width: 100%;
+    }
+
+    .content-default{
+        padding: 5px;
+    }
+
+    .content-flex{
+        flex-direction: column;
+    }
+
+    .flex-wrap{
+        width: 100%;
+    }
+
+    .container-paralax{
+        justify-content: center;
+    }
+
+    footer {
+        text-align: center;
     }
 }
 
