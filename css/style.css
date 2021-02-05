@@ -1,30 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+/*font-family: 'Yusei Magic', sans-serif;*/
 
 body {
   margin: 0;
   padding: 0;
   outline: 0;
+  background-color: rgb(1, 1, 80);
+
+}
+
+h1, h2, h3 {
+  font-family: 'Yusei Magic', sans-serif;
 }
 
 a{
+  color: inherit; 
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   text-decoration: none;
 }
-a:hover{
+
+h3:hover{
+  color: white;
   font-weight: bold;
 }
 
 .container{
-  width: 80%;
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
+  width: 80%;
 }
 
 .content-default{
-  padding: 20px;
+  padding: 5px;
+  margin: 10px 2px;
 }
 
 .content-justify--between{
   justify-content: space-between;
+}
+
+.align-items--center{
+  align-items: center;
+}
+
+.text-align--center{
+  text-align: center;
+}
+
+.text-color--white{
+  color: white;
+}
+
+.text-color--any{
+  color: rgb(248, 171, 171);
+}
+
+.content-border--white{
+  border: solid 1px white;
+  border-radius: 5px;
+}
+
+.content-transform--hover:hover{
+  transition: 0.5s;
+  transform: scale(1.1); 
+}
+
+.content-padding--10{
+  padding: 10px;
+}
+
+.padding-sides--10{
+  padding-left: 20px;
+  padding-right: 20px;
 }
