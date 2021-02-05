@@ -4,7 +4,7 @@
 html, body {
   box-sizing: border-box;
   background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/254e28108518195.5fd1fe7c1e63f.jpg');
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-position: top;
   color: #ffffff;
   height: 90%;
@@ -32,12 +32,14 @@ html, body {
 
 .search-form{
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
+  margin: 5px;
 }
 
 .search-input{
   border: solid #51d4eb;
+  flex: 1;
   font-size: 2em;
   font-family: 'Yusei Magic', sans-serif;
   height: 3em;
@@ -45,15 +47,34 @@ html, body {
   width: 18em;
 }
 
-.search-input:focus {
+.search-input:focus{
   border: solid 1px #353535;
 }
 
 .get-results--button{
   background-color: #51d4eb;
+  border: solid 1px #51d4eb;
   color: #fff;
   cursor: pointer;
-  border: solid 1px #51d4eb;
+  flex:1;
   font-size: 2em;
+  padding: 20px;
   transform: 1s;
+}
+
+#results__api{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#results__api img{
+  border-radius: 5px;
+  border: 1px solid #d4f9ff;
+}
+
+#results__api img:hover {
+  border: solid 1px #3b92a2;
+  transform: scale(1.3);
+  transition: 0.5s;
 }
