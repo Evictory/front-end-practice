@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+body{
+  background-image: url('https://i.vimeocdn.com/video/651412178_1280x720.jpg');
+  background-size: cover;
+  margin: 0;
+  outline: 0; 
+  height: 100vh;
+}
+
+.content-wrap{
+  flex-wrap: wrap;
+}
+
+.content-default{
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.content-flex{
+  display: flex;
+}
+
+.content-align--center{
+  align-items: center;
+}
+
+.content-justify--center{
+  justify-content: center;
+}
+
+.content-theme{
+  border: solid 1px rgb(248, 239, 116);
+}
+
+.search-input{
+  border: none;
+  border-radius: 10px;
+  flex: 1;
+  font-size: 2em;
+  font-family: 'Yusei Magic', sans-serif;
+  height: 3em;
+  text-align: center;
+  width: 10em;
+}
+
+.content-category{
+  background-image: url('https://t2.tudocdn.net/164244?w=660&h=436');
+  background-size: cover;
+  border: solid 3px rgb(255, 132, 0);
+  border-radius: 10px;
+  color: white;
+  opacity: 0.5;
+  padding: 20px;
+  margin: 5px;
+}
+
+.content-category:hover{
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.2s;
+}
+
+.text-category--default{
+  color: white(255, 0, 13);
+  font-family: 'Yusei Magic', sans-serif;
+  font-size: 2em;
+  font-weight: 900;
+  margin: 2px;
+}
+
+.text-category--default:hover{
+  color: red;
+}
