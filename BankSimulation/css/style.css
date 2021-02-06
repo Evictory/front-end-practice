@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+h1, h2, h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.container-width--full{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-height--full{
+    height: 100%;
+    margin: 0 auto;
+}
+
+.bg-color--purple{
+    background-color: #8C52E5;
+}
+
+.bg-color--grey{
+    background-color: #EAEAEA;
+}
+
+.bg-color--green{
+    background-color: rgb(207, 255, 207);
+
+}
+
+.content-default{
+    padding: 20px;
+}
+
+/*
+.content-space--default{
+    margin: 2px;
+    border-radius: 5px;
+}
+
+/**/
+.content-justify{
+    justify-content: center;
+}
+
+.content-justify--between{
+    justify-content: space-between;
+}
+/*
+.content-justify--right{
+    justify-content: flex-end;
+}
+
+/*
+.content-align{
+    align-items: start;
+}
+
+/**/
+
+.content-align--center{
+    align-items: center;
+}
+
+.content-flex{
+    display: flex;
+}
+
+/*
+
+.content-flex--reverse{
+    flex-direction: row-reverse;
+}
+
+.content-flex--direction{
+    flex-direction: row;
+}
+
+.content-flexgrid{
+    display: grid;
+}
+
+.content-border--grey{
+    border: solid 1px grey;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-size--12{
+    font-size: 12px;
+}
+
+/**/
+.flex-wrap{
+    flex: 1;
+    justify-content: center;
+    width: 50%;
+}
+/*
+
+.bg-img--version--1{
+    background-image: url('https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/NG_101_Netuno_190404_1280x720_1472870467973.jpg?w=1900&h=1069');
+}
+
+.bg-img--version--2{
+    background-image: url('https://img.ibxk.com.br/2021/01/14/14183915543060.jpg?w=1120&h=420&mode=crop&scale=both');
+}
+
+.bg-img--version--3{
+    background-image: url('https://d168rbuicf8uyi.cloudfront.net/wp-content/uploads/2017/08/18130743/2373_E-1.jpg');
+}
+
+.bg-img--version--4{
+    background-image: url('https://static.natgeo.pt/files/styles/image_3200/public/SCI_Jupiter_101_PT2~~~~~pt~mux~~1.jpg?w=1600');
+}
+
+.bg-img--version--5{
+    background-image: url('https://exame.com/wp-content/uploads/2020/10/marte_olhos.jpg?quality=70&strip=info&w=1024');
+}
+
+.bg-img--version--6{
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5a5913c9a803bb416d7ef48d/1588788468313-KS9PDFI6EMT8VAX78HLM/ke17ZwdGBToddI8pDm48kAOudlwKZNDPymxunD5W-ht7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmmt9rVnoh5SsI9ugICaYdmUDdiypYUN6A_OrlDtxdy4gYkzs_hewBcchOpWXU26fx/Tumblr.jpg');
+}
+
+.content-img{
+    width: 100%;
+    max-height: 100%;
+}
+
+/* Paralax */
+
+/*
+
+/**/
+.container-paralax{
+    display: flex;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.content-paralax--data{
+    display: flex;
+}
+
+/*block content*/
+
+/*
+.content-block--default{
+    background-color: rgba(26, 9, 179, 0.364);
+    padding: 120px;
+    margin: 50px;
+}
+
+/* Menu */
+
+/*
+.content-menu{
+    align-items: center;
+    bottom: 50%;
+    border: solid 2px rgb(255, 173, 173);
+    border-radius: 10px;
+    display: flex;
+    font-size: 35px;
+    flex-direction: column;
+    padding: 5px;
+    position: fixed;
+    right: 2%;
+}
+
+.menu-item{
+    cursor: pointer;
+    color: rgb(255, 173, 173);
+    font-weight: bold;
+}
+
+.menu-item:hover{
+    transform: scale(1.1);
+    color: rgb(5, 10, 170);
+}
+
+.content-menu a{
+    color: inherit;
+}
+
+/*Smartphone*/
+/*
+@media screen and (max-width: 767px){
+    .container{
+        width: 100%;
+    }
+
+    .content-default{
+        padding: 5px;
+    }
+
+    .content-flex{
+        flex-direction: column;
+    }
+
+    .flex-wrap{
+        width: 100%;
+    }
+
+    .container-paralax{
+        justify-content: center;
+    }
+
+    .container-paralax{
+        height: 80vh;
+    }
+    
+    footer {
+        text-align: center;
+    }
+}
+
+/*tablet*/
+/*
+@media screen and (min-width: 767px) and (max-width: 1023px){
+    .container{
+        width: 100%;
+    }
+}
